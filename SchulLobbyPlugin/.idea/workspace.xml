@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3d0c63f4-2724-4934-8ffc-6b9f584eb35c" name="Changes" comment="sollte sogut wie fertig sein">
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/saloking/schulLobbyPlugin/Listeners/PlayerJoinListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/saloking/schulLobbyPlugin/Listeners/PlayerJoinListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/de/saloking/schulLobbyPlugin/Listeners/PlayerJoinListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/saloking/schulLobbyPlugin/Listeners/PlayerJoinListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-SchulLobbyPlugin-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-SchulLobbyPlugin-1.0-SNAPSHOT.jar" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;nikolas-bott&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/nikolas-bott/learningToCodeMinecraftPlugins.git&quot;,
+    &quot;accountId&quot;: &quot;19f7e70e-c093-4ef8-968c-31d9c441fb07&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2jenEOorweBKEsY5SrfPtbOtSnq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.SchulLobbyPlugin.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/nikol/Desktop/Privat/Plugins/CostumInventories&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="mcdev-temp-root" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="mcdev-temp-root" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SchulLobbyPlugin" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d0c63f4-2724-4934-8ffc-6b9f584eb35c" name="Changes" comment="" />
+      <created>1721756298887</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721756298887</updated>
+    </task>
+    <task id="LOCAL-00001" summary="malSchauen">
+      <option name="closed" value="true" />
+      <created>1721757088262</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721757088262</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Costum Inventory fertig gestellt.">
+      <option name="closed" value="true" />
+      <created>1721757804159</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721757804159</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Costum Inventory fertig gestellt.">
+      <option name="closed" value="true" />
+      <created>1721757818822</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721757818822</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added new things">
+      <option name="closed" value="true" />
+      <created>1721770698091</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721770698091</updated>
+    </task>
+    <task id="LOCAL-00005" summary="$(curl -s http://whatthecommit.com/index.txt)">
+      <option name="closed" value="true" />
+      <created>1721822232517</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721822232518</updated>
+    </task>
+    <task id="LOCAL-00006" summary="$(curl -s http://whatthecommit.com/index.txt)">
+      <option name="closed" value="true" />
+      <created>1721822316467</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721822316467</updated>
+    </task>
+    <task id="LOCAL-00007" summary="sollte sogut wie fertig sein">
+      <option name="closed" value="true" />
+      <created>1721837586874</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1721837586874</updated>
+    </task>
+    <task id="LOCAL-00008" summary="sollte sogut wie fertig sein">
+      <option name="closed" value="true" />
+      <created>1722421098179</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1722421098179</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="malSchauen" />
+    <MESSAGE value="Costum Inventory fertig gestellt." />
+    <MESSAGE value="added new things" />
+    <MESSAGE value="$(curl -s http://whatthecommit.com/index.txt)" />
+    <MESSAGE value="sollte sogut wie fertig sein" />
+    <option name="LAST_COMMIT_MESSAGE" value="sollte sogut wie fertig sein" />
+  </component>
+</project>

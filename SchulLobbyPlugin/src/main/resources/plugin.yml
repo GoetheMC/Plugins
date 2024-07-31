@@ -1,0 +1,43 @@
+name: SchulLobbyPlugin
+version: '1.0-SNAPSHOT'
+main: de.saloking.schulLobbyPlugin.SchulLobbyPlugin
+api-version: '1.21'
+permissions:
+  fly.use:
+    description: Erlaubt dem Spieler zu fliegen.
+    default: false
+  build.use:
+    description: Erlaubt den Spieler Blöcke zu platzieren.
+    default: false
+  mine.use:
+    description: Erlaubt den Spieler Blöcke abzubauen.
+    default: false
+  inventory.use:
+    description: Um dies zu nutzen muss man im Kreativmodus sein.
+    default: false
+  interact.use:
+    description: Erlaubt den Spieler mit Rechtsklick mit Blöcken zu interagiern.
+    default: false
+  admin.rang:
+    description: Man kriegt alle Rechte die ein Admin hat.
+    default: op
+  owner.rang:
+    description: Man kriegt alle Rechte die ein Owner hat
+    default: not op
+  spieler.rang:
+    description: Man kriegt alle Reche die ein Spiler hat.
+commands:
+  openMenu:
+    description: Öffne das Menü zur Spielauswahl!
+  partikel:
+    description: Öffne das Menü zur Partikelauswahl!
+  spawn:
+    description: Telepotiert dich zum Spawn der Lobby!
+  hidePlayers:
+    description: Verstecke alle Spieler!
+  showPlayers:
+    description: Hebt die Unsichtbarkeit der Spieler wieder auf!
+  openScoreBoard:
+    description: Öffnet das Lobby scoreboard.
+  fly:
+    description: Erlaubt einen Spieler mit einem bestimmten Rang in der Lobby zu fliegen.
