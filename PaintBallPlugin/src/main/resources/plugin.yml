@@ -1,0 +1,9 @@
+name: PaintBallPlugin
+version: '1.0-SNAPSHOT'
+main: de.saloking.paintBallPlugin.Main
+api-version: '1.21'
+commands:
+  openshop:
+    description: Öffnet den Shop
+  openscoreboard:
+    description: Öffnet das Scoreboard.
