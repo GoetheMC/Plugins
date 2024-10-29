@@ -13,9 +13,10 @@ import java.util.Map;
 
 public class MenuListener implements Listener {
 
-    private final Map<Player, Particle> playerParticleSelections = new HashMap<>();
 
+    private final Map<Player, Particle> playerParticleSelections = new HashMap<>();
     private final SchulLobbyPlugin plugin;
+
     public MenuListener(SchulLobbyPlugin plugin){
         this.plugin = plugin;
     }
@@ -34,10 +35,10 @@ public class MenuListener implements Listener {
         if(e.getView().getTitle().equals(ChatColor.GOLD + "Alle-Partikel")){
             //Player p = (Player) e.getWhoClicked();
             e.setCancelled(true);
-
             if (e.getCurrentItem() == null) {
                 return;
             }
+
 
             switch (e.getCurrentItem().getType()) {
                 case NETHER_STAR:
@@ -63,6 +64,9 @@ public class MenuListener implements Listener {
             //Player p = (Player) e.getWhoClicked();
             e.setCancelled(true); //Das ClickEvent wird gecancellt, das heißt es kann nicht rausgenommen wurde.
 
+            if (e.getCurrentItem() == null) {
+                return;
+            }
             if (e.getCurrentItem().getType().equals(Material.GRASS_BLOCK)) { //Wenn das geklickte Item grass_block ist
                 p.teleport(new Location(p.getWorld(),
                         this.plugin.getConfig().getInt("survival-coordinates.X"),
@@ -90,16 +94,21 @@ public class MenuListener implements Listener {
     public void onPlayerMove(PlayerMoveEvent event) {
         Player player = event.getPlayer();
         Particle particle = playerParticleSelections.get(player);
-        if(particle != null){
-            if (particle == Particle.HEART) {
-                player.getWorld().spawnParticle(particle, player.getLocation(), plugin.getConfig().getInt("heart-particles.AMOUNT"));
-            } else if (particle == Particle.END_ROD) {
-                player.getWorld().spawnParticle(particle, player.getLocation(), plugin.getConfig().getInt("white-particles.AMOUNT"), 0.2, 0.2, 0.2, 0.1);
-            } else if(particle == Particle.FLAME){
-                player.getWorld().spawnParticle(particle, player.getLocation(), plugin.getConfig().getInt("flame-particles.AMOUNT"), 0.1, 0.2, 0.2, 0.1);
+        if (particle != null) {
+            switch (particle) {
+                case HEART:
+                    player.getWorld().spawnParticle(particle, player.getLocation(), plugin.getConfig().getInt("heart-particles.AMOUNT"));
+                    break;
+                case END_ROD:
+                    player.getWorld().spawnParticle(particle, player.getLocation(), plugin.getConfig().getInt("white-particles.AMOUNT"), 0.2, 0.2, 0.2, 0.1);
+                    break;
+                case FLAME:
+                    player.getWorld().spawnParticle(particle, player.getLocation(), plugin.getConfig().getInt("flame-particles.AMOUNT"), 0.1, 0.2, 0.2, 0.1);
+                    break;
+                default:
+                    break;
             }
         }
-
     }
 
 }

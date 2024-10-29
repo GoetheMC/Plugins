@@ -1,4 +1,5 @@
 join-message: '&1&l%Player% &r&e&lhat den &6&lGOETHE-Schulserver &r&ebetreten!' # %Plyaer% ist der name des Spielers
+leave-message: '&1&l%Player% &r&e&lhat den &6&lGOETHE-Schulserver&r& leider verlassen!'
 survival-coordinates: #Ort wo Spieler hin teleportiert werden, nachdem Sie im Menü der Lobby auf Survival klicken
   X: -610
   Y: 115.5

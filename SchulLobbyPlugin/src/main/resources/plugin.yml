@@ -1,6 +1,9 @@
 name: SchulLobbyPlugin
 version: '1.0-SNAPSHOT'
 main: de.saloking.schulLobbyPlugin.SchulLobbyPlugin
+authors:
+  - Salo
+  - xSirBeppo
 api-version: '1.21'
 permissions:
   fly.use:

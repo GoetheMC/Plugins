@@ -1,11 +1,12 @@
-join-message: '&1&l%Player% &r&e&lhat den &6&lGOETHE-Schulserver &r&ebetreten!'
-survival-coordinates:
+join-message: '&1&l%Player% &r&e&lhat den &6&lGOETHE-Schulserver &r&ebetreten!' # %Plyaer% ist der name des Spielers
+leave-message: '&1&l%Player% &r&e&lhat den &6&lGOETHE-Schulserver&r& leider verlassen!'
+survival-coordinates: #Ort wo Spieler hin teleportiert werden, nachdem Sie im Menü der Lobby auf Survival klicken
   X: -610
   Y: 115.5
   Z: 2
   YAW: 130
   PITCH: 0
-pvp-coordinates:
+pvp-coordinates:  #Ort wo Spieler hin teleportiert werden, nachdem Sie im Menü der Lobby auf PVP klicken
   X: -66
   Y: 115.5
   Z: 74

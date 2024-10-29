@@ -26,6 +26,7 @@ public class PlayerJoinListener implements Listener {
     public PlayerJoinListener(SchulLobbyPlugin plugin){
         this.plugin = plugin;
     }
+
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent e){
 

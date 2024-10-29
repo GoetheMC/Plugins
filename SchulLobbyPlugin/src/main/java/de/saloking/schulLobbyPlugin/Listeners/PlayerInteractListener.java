@@ -20,18 +20,21 @@ public class PlayerInteractListener implements Listener {
     @EventHandler
     public void onPlayerInteract(PlayerInteractEvent e){
 
+
         Player p = e.getPlayer();
         if(e.getAction() == Action.RIGHT_CLICK_BLOCK){
-            if(!p.hasPermission("interact.use") && !p.hasPermission("build.use"))
-            if(e.getClickedBlock().getType() != Material.DARK_OAK_BUTTON){
-               //p.sendMessage("funzt");
-               e.setCancelled(true);
+            if(!p.hasPermission("interact.use") && !p.hasPermission("build.use")) {
+                if (e.getClickedBlock().getType() != Material.DARK_OAK_BUTTON) {
+                    //p.sendMessage("funzt");
+                    e.setCancelled(true);
+                }
             }
         }
+
         if(e.getAction().isRightClick()){
-
-
             //Menü Leiste das in HotBar
+            if(e.getItem() == null) return;
+
             if(e.getItem().getType() == Material.COMPASS){
                 p.performCommand("openMenu");
             }

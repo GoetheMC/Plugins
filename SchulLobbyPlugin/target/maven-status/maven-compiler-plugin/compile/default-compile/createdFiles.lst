@@ -1,6 +1,8 @@
 de\saloking\schulLobbyPlugin\Commands\HidePlayersCommand.class
 de\saloking\schulLobbyPlugin\Commands\PlayerParticlesCommand.class
+de\saloking\schulLobbyPlugin\Listeners\OffHandListener.class
 de\saloking\schulLobbyPlugin\Listeners\MenuListener$1.class
+de\saloking\schulLobbyPlugin\Listeners\PlayerLeaveListener.class
 de\saloking\schulLobbyPlugin\Commands\PlayerMenuCommand.class
 de\saloking\schulLobbyPlugin\Commands\OpenScoreboardCommand.class
 de\saloking\schulLobbyPlugin\Commands\SpawnCommand.class
