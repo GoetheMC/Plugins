@@ -1,0 +1,8 @@
+name: SchulDropDffaPlugin
+version: '1.0-SNAPSHOT'
+main: de.goethemc.schuldropdffaplugin.SchulDropDffaPlugin
+api-version: '1.21'
+commands:
+  arena:
+
+
