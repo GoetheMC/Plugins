@@ -7,6 +7,8 @@ import de.goethemc.schuldropdffaplugin.etc.SpawnIsland;
 import de.goethemc.schuldropdffaplugin.listeners.*;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
+import org.bukkit.Location;
+import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class SchulFFA extends JavaPlugin {
@@ -26,10 +28,10 @@ public final class SchulFFA extends JavaPlugin {
         this.getCommand("arena").setExecutor(new ArenaCommand(this));
 
         getServer().getPluginManager().registerEvents(new InventoryClickListener(this), this);
-        getServer().getPluginManager().registerEvents(new JoinListener(this), this);
+        getServer().getPluginManager().registerEvents(new PlayerJoinListener(this), this);
         getServer().getPluginManager().registerEvents(new BlockBreakListener(this), this);
         getServer().getPluginManager().registerEvents(new EntityDamageListener(this), this);
-        getServer().getPluginManager().registerEvents(new DisableFallDamageListener(this),this);
+        getServer().getPluginManager().registerEvents(new FallDamageListener(this),this);
         getServer().getPluginManager().registerEvents(new BlockPlace(this),this);
         getServer().getPluginManager().registerEvents(new PlayerRespawn(this),this);
         getServer().getPluginManager().registerEvents(new KitLogikWTF(this), this);
@@ -52,6 +54,9 @@ public final class SchulFFA extends JavaPlugin {
     }
     public int getMinFallDistance(){
         return getConfig().getInt("minFallDistance");
+    }
+    public Location getSpawnLocation(Player player){
+        return new Location(player.getWorld(),this.getSpawnX(),this.getSpawnY(),this.getSpawnZ());
     }
     public SpawnIsland getSpawnIsland(){
         return this.spawnIsland;
