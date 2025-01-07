@@ -1,4 +1,4 @@
-package de.goethemc.schuldropdffaplugin.etc;
+package de.goethemc.schuldropdffaplugin.kits;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -10,8 +10,9 @@ import org.bukkit.inventory.meta.ItemMeta;
 
 import java.util.List;
 
-public class KitsInv {
+public class KitsOverviewInventory {
     public void openKitsInv(Player player,String ausgewählt){
+
         Inventory kitInv = Bukkit.createInventory(player, 9, ChatColor.GOLD +""+ChatColor.BOLD+ "Kits");
 
         ItemStack onlySwordKit = new ItemStack(Material.DIAMOND_SWORD);

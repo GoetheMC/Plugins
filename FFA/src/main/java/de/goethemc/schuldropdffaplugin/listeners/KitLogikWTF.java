@@ -1,10 +1,9 @@
 package de.goethemc.schuldropdffaplugin.listeners;
 
-import de.goethemc.schuldropdffaplugin.SchulDropDffaPlugin;
-import de.goethemc.schuldropdffaplugin.etc.Kits;
-import de.goethemc.schuldropdffaplugin.etc.KitsInv;
+import de.goethemc.schuldropdffaplugin.SchulFFA;
+import de.goethemc.schuldropdffaplugin.kits.KitsInventoryManager;
+import de.goethemc.schuldropdffaplugin.kits.KitsOverviewInventory;
 import de.goethemc.schuldropdffaplugin.etc.PvpTag;
-import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.Sound;
@@ -22,17 +21,17 @@ import java.util.concurrent.ConcurrentHashMap;
 
 
 public class KitLogikWTF implements Listener {
-    Kits kit = new Kits();
+    KitsInventoryManager kit = new KitsInventoryManager();
     PvpTag tag = new PvpTag();
-    KitsInv kInv = new KitsInv();
+    KitsOverviewInventory kInv = new KitsOverviewInventory();
 
-    private final SchulDropDffaPlugin plugin;
+    private final SchulFFA plugin;
 
-    public KitLogikWTF(SchulDropDffaPlugin plugin){
+    public KitLogikWTF(SchulFFA plugin){
         this.plugin = plugin;
     }
 
-    ConcurrentHashMap<UUID,String> playerKitMap = new ConcurrentHashMap<>();
+    HashMap<UUID,String> playerKitMap = new HashMap<>();
     private final String uhc = "UHC";
     private final String onlySword = "ONLYSWORD";
     private final String soup = "SOUP";

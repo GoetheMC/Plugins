@@ -1,8 +1,6 @@
 package de.goethemc.schuldropdffaplugin.listeners;
 
-import de.goethemc.schuldropdffaplugin.SchulDropDffaPlugin;
-import de.goethemc.schuldropdffaplugin.etc.Kits;
-import io.papermc.paper.math.BlockPosition;
+import de.goethemc.schuldropdffaplugin.SchulFFA;
 import org.bukkit.*;
 import org.bukkit.block.Block;
 import org.bukkit.event.EventHandler;
@@ -11,14 +9,13 @@ import org.bukkit.event.block.BlockFormEvent;
 import org.bukkit.event.block.BlockFromToEvent;
 import org.bukkit.event.block.BlockPlaceEvent;
 import org.bukkit.event.player.PlayerBucketEmptyEvent;
-import org.bukkit.inventory.ItemStack;
 import org.bukkit.scheduler.BukkitRunnable;
 
 public class BlockPlace implements Listener {
 
-    private SchulDropDffaPlugin plugin;
+    private SchulFFA plugin;
 
-    public BlockPlace(SchulDropDffaPlugin plugin){
+    public BlockPlace(SchulFFA plugin){
         this.plugin = plugin;
     }
     @EventHandler

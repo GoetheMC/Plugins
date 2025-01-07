@@ -1,11 +1,10 @@
 package de.goethemc.schuldropdffaplugin.etc;
 
-import com.sun.tools.javac.Main;
-import de.goethemc.schuldropdffaplugin.SchulDropDffaPlugin;
+import de.goethemc.schuldropdffaplugin.SchulFFA;
 
 public class SpawnIsland {
-    private final SchulDropDffaPlugin plugin;
-    public SpawnIsland(SchulDropDffaPlugin plugin){
+    private final SchulFFA plugin;
+    public SpawnIsland(SchulFFA plugin){
         this.plugin = plugin;
     }
 
@@ -25,14 +24,14 @@ public class SpawnIsland {
 
 
 
-    public int greaterValue(String path) {
+    private int greaterValue(String path) {
         int a = plugin.getConfig().getInt("spawn-area."+path+"1");
         int b = plugin.getConfig().getInt("spawn-area."+path+"2");
 
         if(a > b) return a;
         return b;
     }
-    public int smallerValue(String path){
+    private int smallerValue(String path){
         int a = this.plugin.getConfig().getInt("spawn-area."+path+"1");
         int b = this.plugin.getConfig().getInt("spawn-area."+path+"2");
 

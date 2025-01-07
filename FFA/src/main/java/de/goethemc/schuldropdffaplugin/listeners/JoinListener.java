@@ -1,6 +1,6 @@
 package de.goethemc.schuldropdffaplugin.listeners;
 
-import de.goethemc.schuldropdffaplugin.SchulDropDffaPlugin;
+import de.goethemc.schuldropdffaplugin.SchulFFA;
 import de.goethemc.schuldropdffaplugin.etc.PvpTag;
 import de.goethemc.schuldropdffaplugin.etc.SpawnInv;
 import org.bukkit.*;
@@ -15,8 +15,8 @@ public class JoinListener implements Listener {
     SpawnInv inv = new SpawnInv();
     String tag = taggerino.getTag();
 
-    private final SchulDropDffaPlugin plugin;
-    public JoinListener(SchulDropDffaPlugin plugin){this.plugin = plugin;}
+    private final SchulFFA plugin;
+    public JoinListener(SchulFFA plugin){this.plugin = plugin;}
 
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event){

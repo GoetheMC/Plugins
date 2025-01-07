@@ -1,4 +1,4 @@
-package de.goethemc.schuldropdffaplugin.etc;
+package de.goethemc.schuldropdffaplugin.kits;
 
 import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;
@@ -7,7 +7,7 @@ import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
-public class Kits {
+public class KitsInventoryManager {
     public Inventory getUHC(Player p){
         Inventory inv = p.getInventory();
         inv.clear();

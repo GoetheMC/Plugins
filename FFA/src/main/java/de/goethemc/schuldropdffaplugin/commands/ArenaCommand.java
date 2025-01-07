@@ -1,6 +1,6 @@
 package de.goethemc.schuldropdffaplugin.commands;
 
-import de.goethemc.schuldropdffaplugin.SchulDropDffaPlugin;
+import de.goethemc.schuldropdffaplugin.SchulFFA;
 import org.bukkit.Location;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -9,8 +9,8 @@ import org.bukkit.entity.Player;
 
 public class ArenaCommand implements CommandExecutor {
 
-    private final SchulDropDffaPlugin plugin;
-    public ArenaCommand(SchulDropDffaPlugin plugin){this.plugin = plugin;}
+    private final SchulFFA plugin;
+    public ArenaCommand(SchulFFA plugin){this.plugin = plugin;}
     @Override
     public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings) {
 
